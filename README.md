@@ -6,4 +6,5 @@ These are my notes and exercises from Thinking C++ books.
 
 ### Volume 1
 
-1. [Introduction to objects](./1-intro-objects);
+1. [Introduction to OOP](./volume1/1-intro-objects);
+2. [Making & Using Objects](./volume1/2-using-objects)

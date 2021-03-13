@@ -21,7 +21,7 @@ Object-oriented model provides tools for the programmer to represent elments in 
 * Analysis and Design
   * Five design phases
   * Five stages of object design
-* Extreme Programming (WIP)
+  * Extreme Programming (WIP)
 
 
 ## Smalltalk characteristics example
@@ -214,3 +214,25 @@ Understanding what an object does and what it should look like happens over time
   * Real stress test for a class.
   * Change a class to adapt to more new programs, class will become clearer until you have a truly reusable type.
   * Don't expect most objects from a system design to be reusable.
+
+### Extreme Programming (XP)
+
+> You can find it chronicled in _Extreme Programming Explained_ by Kent Beck and on the web _www.xprogramming.com_.
+
+XP is both a philosophy about programming work and a set of guidelines to do it. Some of these guidelines are reflected in other recent methodologies. The two most important and distinct contributions are "__write test first__", and "__pair programming__".
+
+#### Write tests first
+
+XP gives equal (or even greater) priority than the code. In fact, you write the tests _before_ you write the code that's being tested. The tests must be executed successfully every time you do an integration of the project.
+
+Writing tests first has two extremly important effects:
+
+1. Forces a clear definition of the interface of a class. The tests are a contract that is enforced by the compiler and the running program.
+
+2. Running tests every time you do a build gives you immediate feedback if you do something wrong. Tests become an extension of the safety net provided by the language.
+
+#### Pair Programming
+
+XP says that code should be written with two people per workstation. And that this should be done in an area with a group of workstations.
+
+The value of pair programming is that one person is actually doing the coding while the other is thinking about it. The thinker keeps the big picture in mind, not only the picture of the problem at hand, but the guidelines of XP. If two people are working, it's less likely that one of them will get away saying, "_I don't want to write tests first_", for example. And if the coder gets stuck, they can swap places. If both of them get stuck, their musings may be overheard by someone else in the work area who can contribute. Working in pairs __keps things flowing and on track__.
