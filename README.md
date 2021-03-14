@@ -1,6 +1,6 @@
 # Thinking C++ Notes
 
-These are my notes and exercises from Thinking C++ books.
+These are my notes from Thinking C++ books.
 
 ## Table of Content
 
@@ -13,3 +13,5 @@ These are my notes and exercises from Thinking C++ books.
 5. [Hiding the implementation](./volume1/5-hiding-implementation)
 6. [Initialization & Cleanup](./volume1/6-initialization-cleanup)
 7. [Function overloading & default arguments](./volume1/7-function-overloading)
+8. [Constants](./volume1/8-constants)
+
